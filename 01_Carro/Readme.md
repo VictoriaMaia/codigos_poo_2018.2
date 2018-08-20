@@ -1,5 +1,4 @@
-# Atividade 01_carro - Ana Victória Araújo Maia
-
+# Atividade 01_carro
 **O que você fez?**
 
 Eu fiz o código resolvendo o problema do carro de acordo com o que era pedido e fiz um makefile para compilação.
