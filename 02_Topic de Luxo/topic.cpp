@@ -22,17 +22,10 @@ struct Topic{
         this->preferencial = preferencial;
     }
 
-    ~Topic(){
-        for(Passageiro *pass : poltronas){
-            if(pass != nullptr){
-                delete(pass);
-            }
-        }
-    }
-
     bool out(string nome){
         for(int i = 0; i < (int)poltronas.size(); i++){
             if(poltronas[i] != nullptr && poltronas[i]->nome == nome){
+                delete(poltronas[i]);
                 poltronas[i] = nullptr;
                 return true;
             }
@@ -43,9 +36,10 @@ struct Topic{
 
 
     bool in(string nome, int idade){        
-        for(Passageiro *p : poltronas){
+        //for(Passageiro &*p : poltronas){ <-desse jeito pega a referencia do ponteiro
+        for(Passageiro *p : poltronas){ //<-desse jeito pega a copia do valor do ponteiro
             if(p != nullptr && p->nome == nome){
-                cout << "Erro: Você ja esta na topic" << endl;
+                cout << "Erro: essa pessoa ja esta na topic" << endl;
                 return false;
             }            
         }
@@ -82,62 +76,68 @@ struct Topic{
     string show(){
         stringstream ss;
         ss << "[";
-        for(int i = 0; i < (int)poltronas.size(); i++){            
-            if(i < this->preferencial){
-                ss << " @";
-                if(poltronas[i] != nullptr){                    
-                    ss << poltronas[i]->nome << ":" << poltronas[i]->idade;
-                }
-            }
-            else{  
-                ss << " #";          
-                if(poltronas[i] != nullptr){
-                    ss <<  poltronas[i]->nome << ":" << poltronas[i]->idade;
-                }                
+        for(int i = 0; i < (int)poltronas.size(); i++){  
+            ss << (i < preferencial ? " @" : " #");
+            if(poltronas[i] != nullptr){                    
+                ss << poltronas[i]->nome << ":" << poltronas[i]->idade;
             }
         }
         ss << " ]";
         return ss.str();           
     }
 };
-// struct Controller{
-    
-// };
 
-
-int main(){
+struct Controller{
     Topic top;
-    string op;
-    while(true){
-        cin >> op;
-        if(op == "end"){
-            break;
-        }else if(op == "help"){
-            cout << "show; new (lotacaoTotal,preferencial); in (nome,idade); out (nome); " << endl;
+    
+    string resposta(string line){
+        stringstream in(line);
+        stringstream out;
+        string op;
+        in >> op;
+        if(op == "help"){
+            out << "show; new (lotacaoTotal,preferencial); in (nome,idade); out (nome);";
         }else if(op == "show"){
-            cout << "    " << top.show() << endl;
+            out << top.show();
         }else if(op == "new"){
             int lotacaoMax, preferencial;
-            cin >> lotacaoMax >> preferencial;
+            in >> lotacaoMax >> preferencial;
             top = Topic(lotacaoMax, preferencial);
-            cout << "    done" << endl;
+            out << "done";
         }else if(op == "in"){
             string nome;
             int idade;
-            cin >> nome >> idade;
+            in >> nome >> idade;
             if(top.in(nome, idade)){
-                cout << "    done" << endl;
+                out << "done";
             }
         }else if(op == "out"){
             string nome;
-            cin >> nome;
+            in >> nome;
             if(top.out(nome)){
-                cout << "   done" << endl;
+                out << "done";
             }
         }
+        
+        return out.str();
     }
-    
 
 
+    void exec(){
+        string line;
+        while(true){
+            getline(cin, line);
+            if(line == "end"){                
+                return;
+            }
+            cout << "   " << resposta(line) << endl;
+        }
+    }
+};
+
+
+int main(){
+    Controller control;
+    control.exec();
     return 0;
 }
