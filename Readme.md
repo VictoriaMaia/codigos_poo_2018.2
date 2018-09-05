@@ -62,3 +62,24 @@ Um pouco em ponteiros.
 **Quanto tempo levou pra fazer a atividade?**
 
 Uma tarde.
+
+# Atividade 03_Contato
+**O que você fez?**
+
+Fiz o algoritmo do contato que adiciona, remove ou atualiza uma lista de telefones em um único contato.
+
+**Com quem e como você fez?**
+
+Fiz sozinha. Fiz a partir dos vídeos da aula, e pesquisando no site cplusplus onde achei a função *find_first_not_of* .
+
+**O que aprendeu e sabe fazer?**
+
+Sei uma nova função de string, sei usar o getline de uma diferente da que eu estava acostumanda.
+
+**O que tem dificuldade ainda?**
+
+Não sei, esse código foi bem tranquilo.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+Somando as horas que eu realmente peguei para implementar levou um dia.
