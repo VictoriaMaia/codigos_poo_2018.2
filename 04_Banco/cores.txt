@@ -1,0 +1,32 @@
+/** Foreground Colors **/
+FOREBLACK printf("\033[30m") 
+FORERED printf("\033[31m") 
+FOREGREEN printf("\033[32m") 
+FOREYELLOW printf("\033[33m") 
+FOREBLUE printf("\033[34m") 
+FOREMARGENTA printf("\033[35m") 
+FORECYAN printf("\033[36m") 
+FOREWHITE printf("\033[37m") 
+FORENORMAL_COLOR printf("\033[39m") 
+
+/** Background Colors **/
+BACKBLACK printf("\033[40m") 
+BACKRED printf("\033[41m") 
+BACKGREEN printf("\033[42m") 
+BACKYELLOW printf("\033[43m") 
+BACKBLUE printf("\033[44m") 
+BACKMAGENTA printf("\033[45m") 
+BACKCYAN printf("\033[46m") 
+BACKWHITE printf("\033[47m") 
+BACKNORMAL printf("\033[49m")
+
+/** Style **/
+BRIGHT printf("\033[1m")
+DIM printf("\033[2m")
+NORMAL printf("\033[22m")
+RESETALL printf("\033[0m")
+UNDERLINE printf("\033[4m")
+BLINKSLOW printf("\033[5m")
+BLINKRAPID printf("\033[6m")
+ITALIC printf("\033[3m")
+NEGATIVE printf("\033[7m")

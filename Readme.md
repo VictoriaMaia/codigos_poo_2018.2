@@ -83,3 +83,24 @@ Não sei, esse código foi bem tranquilo.
 **Quanto tempo levou pra fazer a atividade?**
 
 Somando as horas que eu realmente peguei para implementar levou um dia.
+
+# Atividade 04_Conta_Bancária
+**O que você fez?**
+
+Fiz um sistema que gerencia uma conta bancária, mostrando as ações feitas na conta inicializada.
+
+**Com quem e como você fez?**
+
+Fiz sozinha. Fiz a partir dos conhecimentos adquiridos até agora na disciplina e com a ajuda de uma pesquisa de como colorir as palavras no termial para deixar o resultado mais bonito.
+
+**O que aprendeu e sabe fazer?**
+
+Reforcei meu apredizado e aprendi a colorir as palavras no terminal.
+
+**O que tem dificuldade ainda?**
+
+Não senti muita dificuldade em fazer o banco.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+O equivalente a uma tarde.
