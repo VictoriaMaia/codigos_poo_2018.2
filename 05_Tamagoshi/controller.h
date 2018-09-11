@@ -33,10 +33,19 @@ struct Controll{
         }else if(op == "show"){
             out << tamagotchi.show();
         }else if(op == "play"){
-            if(tamagotchi.play()){
+            int resul = tamagotchi.play();
+            if(resul == -1){
                 out << printPlay();
-            }
-            else{
+            }else if(resul == E){
+                out << "fail: pet morreu de fraqueza" << endl;
+                out << printDied();
+            }else if(resul == H){
+                out << "fail: pet morreu de fome" << endl;
+                out << printDied();
+            }else if(resul == C){
+                out << "fail: pet morreu de sujo" << endl;
+                out << printDied();
+            }else{
                 out << "fail: pet esta morto" << endl;
                 out << printDied();
             }

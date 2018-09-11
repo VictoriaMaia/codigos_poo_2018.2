@@ -52,16 +52,25 @@ public:
         return shw.str();
     }
 
-    bool play(){
+    int play(){
         if(dinoKun.getAlive()){
             dinoKun.setInformations(-2, E);
             dinoKun.setInformations(-1, H);
             dinoKun.setInformations(-3, C);
             dinoKun.setInformations(1, A);
             dinoKun.setInformations(1, D);
-            return true;
+            
+            if(dinoKun.getInformations(E) == 0){
+                return E;
+            }else if(dinoKun.getInformations(H) == 0){
+                return H;
+            }else if(dinoKun.getInformations(C) == 0){
+                return C;
+            }else{
+                return -1;
+            }
         }
-        return false;
+        return 10;
     }
 
     bool eat(){
@@ -106,10 +115,7 @@ public:
         return false;
     }
 
-
-
-
-
+    
 };
 
 #endif

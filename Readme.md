@@ -104,3 +104,24 @@ Não senti muita dificuldade em fazer o banco.
 **Quanto tempo levou pra fazer a atividade?**
 
 O equivalente a uma tarde.
+
+# Atividade 05_Tamagotchi
+**O que você fez?**
+
+Fiz um bichinho virtual super fofo. Ele pode comer, dormir, tomar banho, brincar e morrer.
+
+**Com quem e como você fez?**
+
+Fiz completamente só e inventei os desenhos do tamagotchi para representar as ações. Além do desing, fiz as funções pensando sempre em uma função poder ter várias funcionalidades, e apliquei o conhecimentos das minhas cadeiras anteriores, como por exemplo o uso do enum.
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi a desenhar e a limpar a tela com um comando da biblioteca stdlib. Sei além do que aprendi, a mexer com várias classes em arquivos diferentes.
+
+**O que tem dificuldade ainda?**
+
+Não sei. Esse trabalho não foi díficil, só trabalhoso por causa dos desenhos.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+3 dias.
