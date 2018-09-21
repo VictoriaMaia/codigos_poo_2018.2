@@ -125,3 +125,24 @@ Não sei. Esse trabalho não foi díficil, só trabalhoso por causa dos desenhos
 **Quanto tempo levou pra fazer a atividade?**
 
 3 dias.
+
+# Atividade 06_Agiota Gente Fina
+**O que você fez?**
+
+Fiz a atividade do agiota com operações envolvendo vetores. Entreguei atrasada por causa que deixei pra fazer no dia.
+
+**Com quem e como você fez?**
+
+Fiz sozinha. Fui seguindo a descrição da atividade.
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi a excluir valores no *vector* com o *erase*.
+
+**O que tem dificuldade ainda?**
+
+Não sei.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+Algumas horas.
