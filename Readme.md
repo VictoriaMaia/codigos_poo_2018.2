@@ -146,3 +146,34 @@ Não sei.
 **Quanto tempo levou pra fazer a atividade?**
 
 Algumas horas.
+
+
+# Atividade 07_Agiota melhorado
+**O que você fez?**
+
+Aprimorei o código do agiota gente fina usando os novos assuntos dados em aula:
+- Tratamento de erro (try catch junto com o throw)
+- Repositório
+- Template
+- Map
+- Iteradores
+
+**Com quem e como você fez?**
+
+Comecei a fazer com o João Paulo. Mas continuei e terminei sozinha.
+
+Fiz me baseando no código de repositório que o professor fez em aula.
+
+**O que aprendeu e sabe fazer?**
+
+Sei tratar erros sem precisar fazer muitas comparações pra ver se deu certo ou não, sei usar a estrutura map, sei usar template e aprendi a ideia de repositório.
+
+**O que tem dificuldade ainda?**
+
+Em saber usar ponteiros e enviar referências.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+Uns dois dias.
+
+
