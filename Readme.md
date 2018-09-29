@@ -176,4 +176,25 @@ Em saber usar ponteiros e enviar referências.
 
 Uns dois dias.
 
+# Atividade 08_Repositórios
+**O que você fez?**
+
+Fiz a atividade de repositórios. 
+
+**Com quem e como você fez?**
+
+Fiz sozinha. Fiz pegando a ideia do trabalho anterior.
+
+**O que aprendeu e sabe fazer?**
+
+Entendi mais o assunto de repositório. Acredito que sei fazer agora.
+
+**O que tem dificuldade ainda?**
+
+Continuo meio sem ter certeza sobre ponteiros.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+Algumas horas.
+
 
