@@ -1,0 +1,22 @@
+showUsers
+addUser davi 13
+addUser rui 45
+addUser vi 30
+login rui 4
+login rui 45
+login davi 13
+logout
+logout
+showUsers
+login vi 30
+changePass vi 31 47
+changePass vi 30 40
+addNote fazer algo
+addNote fazer nada
+addNote tentar nadar
+addNote correr amanha
+showNotes
+rmNote correr
+showNotes
+logout
+end

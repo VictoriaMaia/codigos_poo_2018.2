@@ -197,4 +197,27 @@ Continuo meio sem ter certeza sobre ponteiros.
 
 Algumas horas.
 
+# Atividade 09_Serviço de Anotações
+**O que você fez?**
+
+Um sistema com gerenciamento de login onde vários usuários podem cadastrar e remover várias anotações.
+
+**Com quem e como você fez?**
+
+Fiz sozinha com a ajuda dos vídeos da aula de reposição que o professor implementou o trabalho segredos.
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi a fazer um gerenciador de login e relação entre classes.
+
+**O que tem dificuldade ainda?**
+
+Ponteiros e referências.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+Algumas horas.
+
+
+
 
