@@ -25,6 +25,9 @@ public:
     }
 
     string show(string key){         
+        if(!exist(key)){
+            throw "fail: funcionario " + key + " não existe";
+        }
         return coisas.find(key)->second->toString();
     }
 
@@ -32,11 +35,14 @@ public:
         if(!exist(key)){
             throw "fail: funcionario " + key + "não existe";
         }        
-        
         delete coisas.find(key)->second;
         coisas.erase(key);           
     }
-    // get    
+    
+    void diaria(string key){
+        T func = coisas.find(key)->second;
+        func->addDiaria();
+    }
 };
 
 #endif

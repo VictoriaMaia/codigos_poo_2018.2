@@ -218,6 +218,25 @@ Ponteiros e referências.
 
 Algumas horas.
 
+# Atividade 10_Cálculo do Salário
+**O que você fez?**
 
+Uma parte do sistema do cálculo do salário, não sei fazer a parte dos bonus, então não coloquei no sistema.
+
+**Com quem e como você fez?**
+
+Fiz uma parte sozinha e pedi ajuda para ver um erro com o monitor. Fiz revendo os vídeos que falam sobre herança, polimorfismo e vendo os codigos dos gatos zumbi e dos gatos e ratos.
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi um pouco sobre herança e polimorfismo, mas não sei bem ainda mexer nisso.
+
+**O que tem dificuldade ainda?**
+
+Mexer com herança e ver uma classe como outra misturando com ponteiros e destrutores.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+2 semanas.
 
 
