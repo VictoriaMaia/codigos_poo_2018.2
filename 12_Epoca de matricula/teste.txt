@@ -1,0 +1,13 @@
+newalu alice edson bruno
+newdis poo aps fup
+show
+mat bruno fup aps poo
+mat alice fup poo
+mat edson fup pi
+mat juju fup
+show
+rmmat bruno poo aps
+show
+rmalu alice
+show
+end

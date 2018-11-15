@@ -239,4 +239,25 @@ Mexer com herança e ver uma classe como outra misturando com ponteiros e destru
 
 2 semanas.
 
+# Atividade 12_Época de Matricula
+**O que você fez?**
+
+A atividade da época de matricula
+
+**Com quem e como você fez?**
+
+Sozinha, baseado nos algoritmos e na aula que o professor disponibilizou
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi associação e como fazer a costura(matricular um aluno em várias disciplinas) e a descosturar(desmatricular um aluno em várias disciplinas)
+
+**O que tem dificuldade ainda?**
+
+Ponteiros
+
+**Quanto tempo levou pra fazer a atividade?**
+
+2 dias
+
 
