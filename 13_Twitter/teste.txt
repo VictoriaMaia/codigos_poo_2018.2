@@ -1,0 +1,30 @@
+addUser goku
+addUser sara
+addUser tina
+users
+seguir goku sara
+seguir goku tina
+seguir sara tina
+users
+twittar sara hoje estou triste
+twittar tina ganhei chocolate
+twittar sara partiu ru
+twittar tina chocolate ruim
+twittar goku internet maldita
+timeline goku
+myTweets goku
+timeline tina
+myTweets sara
+twittar tina eu
+twittar tina amo
+twittar tina chocolate
+timeline sara
+timeline goku
+timeline sara
+like sara 6
+like goku 6
+like sara 4
+timeline sara
+timeline bruno
+seguir goku kuririn
+end
