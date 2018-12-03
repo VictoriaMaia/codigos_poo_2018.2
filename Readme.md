@@ -260,4 +260,23 @@ Ponteiros
 
 2 dias
 
+# Atividade 13_Twitter
+**O que você fez?**
 
+Fiz a atividade do twitter.
+
+**Com quem e como você fez?**
+
+Fiz sozinha, olhando os meus códigos para relembrar algumas coisas e olhei o código do Mateus Sousa para ver por onde eu começava a fazer, mas não copiei nada do dele, e pesquisei no cplusplus como mexer com lista.
+
+**O que aprendeu e sabe fazer?**
+
+Aprendi um pouco mais a mexer com ponteiros e a mexer com lista em c++.
+
+**O que tem dificuldade ainda?**
+
+Ponteiros.
+
+**Quanto tempo levou pra fazer a atividade?**
+
+2 dias.
